@@ -10,7 +10,7 @@ with open('insert.sql', 'w') as file:
     file.write('USE edustream;\n\n')
     file.write('CREATE TABLE students (\n\tstudent_id INTEGER(5) PRIMARY KEY,\n\tfirst_name varchar(50),\n\tlast_name(50),\n\temail varchar(30)\n);\n\n')
 
-with open('Students.csv', 'r') as sfile:
+with open('Students_New.csv', 'r') as sfile:
     line = sfile.readline()
     line2 = sfile.readlines()
 
